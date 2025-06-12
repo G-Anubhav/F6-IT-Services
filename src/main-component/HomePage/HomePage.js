@@ -34,7 +34,7 @@ const HomePage = () => {
                     <FunFactSection />
                     <ProjectSection />
                     <WorkProcess />
-                    <PartnerSection />
+                    <PartnerSection />  
                     <IndustrieSection />
                     <Testimonial />
                     <FeaturesSection />
