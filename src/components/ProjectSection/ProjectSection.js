@@ -104,19 +104,19 @@ const ProjectSection = (props) => {
                     <div className="sec-title--two mb-30">
                         <Fade direction='up' triggerOnce={'false'} duration={1000} delay={9}>
                             <div>
-                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" />Case study</span>
+                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" />Projects</span>
                             </div>
                         </Fade>
                         <Fade direction='up' triggerOnce={'false'} duration={1000} delay={9}>
                             <div>
-                                <h2 className="title wow skewIn" data-wow-duration="600ms">Our resent SEO work</h2>
+                                <h2 className="title wow skewIn" data-wow-duration="600ms">Our Recent Projects</h2>
                             </div>
                         </Fade>
                     </div>
                     <div className="xb-btn text-center wow fadeInRight mb-30" data-wow-duration="600ms">
                         <Fade direction='right' triggerOnce={'false'} duration={1000} delay={9}>
                             <div>
-                                <Link onClick={ClickHandler} to={'/casestudy'} className="thm-btn thm-btn--aso">View more casestudy</Link>
+                                <Link onClick={ClickHandler} to={'/casestudy'} className="thm-btn thm-btn--aso">View More Projects</Link>
                             </div>
                         </Fade>
                     </div>

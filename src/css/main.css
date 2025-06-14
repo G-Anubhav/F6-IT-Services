@@ -17924,13 +17924,13 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero-style-two {
-  min-height: 920px;
+  min-height: 720px;
 }
 
 @media (max-width: 1199px) {
   .hero-style-two {
     padding-top: 150px;
-    min-height: 790px;
+    min-height: 690px;
   }
 }
 
@@ -18004,8 +18004,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero-style-two .hero-right_img .img--one {
-  top: 25px;
-  left: 17%;
+  top: -10px;
+  left: -2%;
 }
 
 @media (max-width: 1199px) {
@@ -18032,14 +18032,14 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .hero-style-two .hero-right_img .img--two {
   right: -28%;
-  bottom: 12%;
+  bottom: 5%;
   animation: updown-3 3s linear infinite;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .hero-style-two .hero-right_img .img--two {
     right: -3%;
-    bottom: 0%;
+    bottom: -5%;
   }
 }
 

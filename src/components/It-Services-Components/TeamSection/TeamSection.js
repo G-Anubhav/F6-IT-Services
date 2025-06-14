@@ -47,7 +47,7 @@ const TeamSection = () => {
                 <div className="team-wrap ul_li_between">
                     <ul className="xb-item--skill list-unstyled">
                         <li>Skilled and Experienced Team.</li>
-                        <li>Comprehensive IT Support.</li>
+                        <li>Results-Oriented Strategies.</li>
                         <li>Expertise Across Technologies.</li>
                         <li>24/7 Support and Monitoring.</li>
                     </ul>
@@ -62,8 +62,8 @@ const TeamSection = () => {
                         </Link>
                     </div>
                     <div className="xb-item--holders">
-                        <h3 className="xb-item--title">Our dedicated IT experts team committed to your success</h3>
-                        <p className="xb-item--content">Our dedicated IT experts are committed to your success, delivering tailored, scalable solutions that drive growth and efficiency. Your success is our focus.</p>
+                        <h3 className="xb-item--title">A Team of Digital Experts Committed to Brand’s Growth</h3>
+                        <p className="xb-item--content">Our team blends creativity, strategy, and technology to deliver impactful digital solutions that elevate your brand and drive measurable results.</p>
                     </div>
                 </div>
             </div>

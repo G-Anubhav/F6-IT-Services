@@ -8,11 +8,13 @@ import FeaturedSection from '../../components/It-Services-Components/FeatureSect
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import WorkProcess from '../../components/WorkProcess/WorkProcess';
+import WorkProcess2 from '../../components/It-Services-Components/WorkProcess/WorkProcess';
 import IndustrieSection from '../../components/IndustrieSection/IndustrieSection';
 import FunFactSection from '../../components/It-Services-Components/FunFact/FunFact';
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import TeamSection from '../../components/TeamSection/TeamSection';
+import OurTeamSection from '../../components/It-Services-Components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import FaqSection from '../../components/FaqSection/FaqSection';
 import Footer from '../../components/footer/Footer';
@@ -31,14 +33,16 @@ const HomePage = () => {
                     <About2 />
                     <About />
                     <ServiceSection />
+                    <WorkProcess2 />
                     <FunFactSection />
                     <ProjectSection />
+                    <FeaturesSection />
                     <WorkProcess />
                     <PartnerSection />  
                     <IndustrieSection />
                     <Testimonial />
-                    <FeaturesSection />
                     <TeamSection />
+                    <OurTeamSection />
                     <FaqSection />
                     <CtaSection /> 
                 </main>
