@@ -28,8 +28,8 @@ const ContactSection = (props) => {
                                 <div className="xb-item--inner">
                                     <div className="xb-item--top">
                                         <h3 className="xb-item--title">Contact Info</h3>
-                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +(1) 1230 452 8597</span>
-                                        <span className="xb-item--email"><img src={icon2} alt="" /> innomax@example.com</span>
+                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +91 96156 41564</span>
+                                        <span className="xb-item--email"><img src={icon2} alt="" /> info@f6itservices.com</span>
                                         <ul className="social_icons_block list-unstyled ul_li">
                                             <li><Link onClick={ClickHandler} to="/contact" aria-label="Facebook"><i className="fab fa-facebook-f"></i></Link></li>
                                             <li>
@@ -41,17 +41,17 @@ const ContactSection = (props) => {
                                         </ul>
                                     </div>
                                     <div className="contact-info_widget">
-                                        <h3 className="xb-title">United states office</h3>
-                                        <span className="xb-location">Sunshine example park, Floor <br /> No 05A,Sector-94,</span>
+                                        <h3 className="xb-title">Gurugram/Gurgaon office</h3>
+                                        <span className="xb-location">SCO-88, 2nd Floor, <br /> Sector 12A, Gurugram, Haryana</span>
                                     </div>
-                                    <div className="contact-info_widget">
-                                        <h3 className="xb-title">United kingdom office</h3>
-                                        <span className="xb-location">12 Buckingham Rd, example <br /> Thwaite, HG3 4 TY, UK Contact</span>
-                                    </div>
+                                    {/* <div className="contact-info_widget">
+                                        <h3 className="xb-title">New Delhi office</h3>
+                                        <span className="xb-location">SCO-88, 2nd Floor, <br /> Sector 12A, Gurugram, Haryana</span>
+                                    </div> */}
                                     <hr className="breack-line" />
                                     <div className="contact-info_widget">
                                         <h3 className="xb-title">our office open time</h3>
-                                        <span className="xb-location">Mon - Sat : 8.00-5.00 <br /> Sunday : Closed</span>
+                                        <span className="xb-location">Mon - Sat : 8.00 AM - 5.00 PM <br /> Sunday : Closed</span>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const ContactSection = (props) => {
                 </div>
             </div>
             <div className="gmap_canvas bg-light">
-                <iframe title='map' src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.383634640626!2d77.03435207416126!3d28.46799109153607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d195391c91779%3A0x51da301450033261!2sJayant%20India%20Nidhi%20limited!5e0!3m2!1sen!2sin!4v1750155581818!5m2!1sen!2sin"></iframe>
             </div>
         </div>
     )

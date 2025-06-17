@@ -23,7 +23,7 @@ const TeamPage = (props) => {
                                 <div className="col-lg-9 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><img src={icon} alt="" /> Contact us</span>
-                                        <h2 className="title">Connect with our team for <br /> innovative solutions and <br /> your digital success</h2>
+                                        <h2 className="title">Connect with our team for <br /> innovative solutions and <br /> your <span className='title-highlight'> Digital Success</span></h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 mt-30">
