@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom'
 import Services from '../../api/service'
-import WorkProcess from '../../components/WorkProcess/WorkProcess';
+// import WorkProcess from '../../components/WorkProcess/WorkProcess';
+import WorkProcess2 from '../../components/It-Services-Components/WorkProcess/WorkProcess';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Header from '../../components/header/Header';
 import Scrollbar from '../../components/scrollbar/scrollbar'
@@ -26,14 +27,14 @@ const ServicePage = (props) => {
                             <div className="row mt-none-30 align-items-end">
                                 <div className="col-lg-9 mt-30">
                                     <div className="page-title-box">
-                                        <span className="sub-title"><img src={icon} alt="" /> Main Services</span>
-                                        <h2 className="title">Discover our comprehensive <br /> SEO services to boost your <br /> online presence</h2>
+                                        <span className="sub-title"><img src={icon} alt="" /> Featured Services</span>
+                                        <h2 className="title">Discover our Comprehensive <br /> Digital Services to <span className="title-highlight">Boost</span> your <br /> Online Presence</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 mt-30">
                                     <div className="count-box">
-                                        <h2 className="number">09</h2>
-                                        <span className="text">Professional top <br /> services</span>
+                                        <h2 className="number">16</h2>
+                                        <span className="text">Professional Top <br /> Services</span>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@ const ServicePage = (props) => {
                 <section className="service pt-65 pb-130">
                     <div className="container">
                         <div className="row mt-none-30">
-                            {Services.slice(0, 6).map((service, srv) => (
+                            {Services.slice(0, 16).map((service, srv) => (
                                 <div className="col-lg-4 col-md-6 mt-30" key={srv}>
                                     <div className="service-box">
                                         {service.title ?
@@ -67,11 +68,12 @@ const ServicePage = (props) => {
 
                         </div>
                         <div className="xb-btn text-center mt-60 wow fadeInUp" data-wow-delay="450ms" data-wow-duration="600ms">
-                            <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--aso thm-btn--aso_yellow">Book a free consultation</Link>
+                            <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--aso ">Get Started Now</Link>
                         </div>
                     </div>
                 </section>
-                <WorkProcess />
+                {/* <WorkProcess /> */}
+                <WorkProcess2 />
                 <Testimonial tClass={'pt-130'}/>
                 <CtaSection />
             </div>

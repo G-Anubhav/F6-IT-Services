@@ -53,7 +53,7 @@ const Process = [
 const WorkProcess = (props) => {
 
     return (
-        <section className="process pt-140 pb-40 pos-rel" style={{ backgroundColor: "#fff" }}>
+        <section className="process pt-70 pb-40 pos-rel" style={{ backgroundColor: "#fff" }}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-5 col-md-8">
@@ -61,12 +61,13 @@ const WorkProcess = (props) => {
                             <div className="sec-title">
                                 <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                                     <div>
-                                        <h2 className="title mb-40 wow fadeInUp" data-wow-duration="600ms">Our 5-step workflow</h2>
+                                        <h2 className="title mb-40 wow fadeInUp" data-wow-duration="600ms">Our 5-Steps Workflow</h2>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <span className="content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">Our innomax Efficient Workflow in 5 Steps ensures streamlined IT solutions. We start by understanding your needs, then plan the project, design intuitive interfaces, build robust systems, and thoroughly test.</span>
+                                        <span className="content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">Our F6 Digital Workflow in 5 Steps ensures seamless, results-driven marketing solutions.
+                                        We begin by understanding your brand goals, strategize a custom plan, design engaging experiences, execute powerful campaigns, and continuously test and optimize for success.</span>
                                     </div>
                                 </Fade>
                             </div>

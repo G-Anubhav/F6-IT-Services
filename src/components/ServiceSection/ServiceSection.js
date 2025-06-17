@@ -44,7 +44,7 @@ const ServiceSection = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 mt-30">
                         <div className="service-all_item">
-                            {Services.slice(0, 3).map((service, srv) => (
+                            {Services.slice(0, 8).map((service, srv) => (
                                 <div className="service-box" key={srv}>
                                     {service.title ?
                                         <div className="service-item">
@@ -67,7 +67,7 @@ const ServiceSection = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 mt-30">
                         <div className="service-all_item">
-                            {Services.slice(3, 6).map((service, srv) => (
+                            {Services.slice(8, 16).map((service, srv) => (
                                 <div className="service-box" key={srv}>
                                     {service.title ?
                                         <div className="service-item">

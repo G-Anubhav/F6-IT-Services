@@ -21,7 +21,7 @@ const FaqSection = (props) => {
     };
 
     return (
-        <section className="faq pb-140">
+        <section className="faq pt-100 pb-140">
             <div className="container">
                 <div className="sec-title--two text-center mb-60">
                     <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>

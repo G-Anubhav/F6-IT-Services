@@ -73,16 +73,16 @@ const Header = (props) => {
                         <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
                             <nav className="main-menu collapse navbar-collapse">
                                 <ul>
-                                    <li className="menu-item-has-children">
+                                    <li>
                                         <Link onClick={ClickHandler} to="/"><span>Home</span></Link>
-                                        <ul className="submenu">
+                                        {/* <ul className="submenu">
                                             <li><Link onClick={ClickHandler} to="/"><span>SEO Agency</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/home-2"><span>It Services</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/home-3"><span>AI & Data Solutions</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/home-4"><span>Cyber Security</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/home-5"><span>Cloud and Devops</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/home-6"><span>Help desk SaaS</span></Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li className="menu-item-has-children megamenu">
                                         <Link onClick={ClickHandler} to="/"><span>company</span></Link>
@@ -107,11 +107,11 @@ const Header = (props) => {
                                                                                             Us</small>
                                                                                     </span>
                                                                                     <span className="description mb-0">
-                                                                                        Learn more about Innomax
+                                                                                        Learn more about Company
                                                                                     </span>
                                                                                 </Link>
                                                                             </div>
-                                                                            <div className="col-xl-4 col-md-4">
+                                                                            {/* <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/pricing">
                                                                                     <span className="icon_title_wrap">
@@ -124,7 +124,7 @@ const Header = (props) => {
                                                                                     <span className="description mb-0">
                                                                                         Streamlined Pricing </span>
                                                                                 </Link>
-                                                                            </div>
+                                                                            </div> */}
                                                                             <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/team">
@@ -155,7 +155,7 @@ const Header = (props) => {
                                                                                     </span>
                                                                                 </Link>
                                                                             </div>
-                                                                            <div className="col-xl-4 col-md-4">
+                                                                            {/* <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/service-single/Niche-research">
                                                                                     <span className="icon_title_wrap">
@@ -170,7 +170,7 @@ const Header = (props) => {
                                                                                         Happy to help you!
                                                                                     </span>
                                                                                 </Link>
-                                                                            </div>
+                                                                            </div> */}
                                                                             <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/casestudy">
@@ -179,10 +179,10 @@ const Header = (props) => {
                                                                                             <img src={icon7} alt="" />
                                                                                         </small>
                                                                                         <small
-                                                                                            className="iconbox_title">Casestudy</small>
+                                                                                            className="iconbox_title">Projects</small>
                                                                                     </span>
                                                                                     <span className="description mb-0">
-                                                                                        Explore our all casestudy.
+                                                                                        Explore our all projects.
                                                                                     </span>
                                                                                 </Link>
                                                                             </div>
@@ -200,7 +200,7 @@ const Header = (props) => {
                                                                                         Happy to help you! </span>
                                                                                 </Link>
                                                                             </div>
-                                                                            <div className="col-xl-4 col-md-4">
+                                                                            {/* <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/career-details">
                                                                                     <span className="icon_title_wrap">
@@ -215,8 +215,8 @@ const Header = (props) => {
                                                                                         are friendly Join our
                                                                                         team.</span>
                                                                                 </Link>
-                                                                            </div>
-                                                                            <div className="col-xl-4 col-md-4">
+                                                                            </div> */}
+                                                                            {/* <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/casestudy-details/Marketing">
                                                                                     <span className="icon_title_wrap">
@@ -231,7 +231,7 @@ const Header = (props) => {
                                                                                         className="description mb-0">Explore
                                                                                         our all casestudy.</span>
                                                                                 </Link>
-                                                                            </div>
+                                                                            </div> */}
                                                                             <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/terms-conditions">
@@ -270,8 +270,8 @@ const Header = (props) => {
                                                                         className="btns_group p-0 unordered_list justify-content-start">
                                                                         <li>
                                                                             <Link onClick={ClickHandler} to="/contact"
-                                                                                className="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get
-                                                                                free consultation</Link>
+                                                                                className="thm-btn thm-btn--aso megamenu-btn">Get
+                                                                                Started Today</Link>
                                                                         </li>
                                                                         <li>
                                                                             <div className="review_short_info_2">
@@ -379,35 +379,44 @@ const Header = (props) => {
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">International
-                                                                                                    SEO</span>
+                                                                                                    className="icon_list_text">Marketing Automation</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Niche
-                                                                                                    research</span>
+                                                                                                    className="icon_list_text">Lead Management System</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Link
-                                                                                                    building </span>
+                                                                                                    className="icon_list_text">Business Applications</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Enterprise
-                                                                                                    SEO</span>
+                                                                                                    className="icon_list_text"></span>
                                                                                             </Link>
                                                                                         </li>
                                                                                     </ul>
+                                                                                    <div className="col-xl-12 col-md-12">
+                                                                                        <Link onClick={ClickHandler} className="iconbox_block_2"
+                                                                                            to="/service">
+                                                                                            <span className="icon_title_wrap">
+                                                                                                <small className="iconbox_icon">
+                                                                                                    <img src={icon5} alt="" />
+                                                                                                </small>
+                                                                                                <small
+                                                                                                    className="iconbox_title">All Services</small>
+                                                                                            </span>
+                                                                                            <span className="description mb-0">View Our All Services</span>
+                                                                                        </Link>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="col-xl-6">
@@ -418,32 +427,28 @@ const Header = (props) => {
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Penalty
-                                                                                                    recovery</span>
+                                                                                                    className="icon_list_text">User/Customer Experience Design</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Content
-                                                                                                    optimization</span>
+                                                                                                    className="icon_list_text">Business Automations (AI)</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Technical
-                                                                                                    SEO</span>
+                                                                                                    className="icon_list_text">Web Development / DevOps</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
                                                                                                 to="/service-single/Niche-research">
                                                                                                 <span
-                                                                                                    className="icon_list_text">Competitor
-                                                                                                    analysis</span>
+                                                                                                    className="icon_list_text">Cloud Communication</span>
                                                                                             </Link>
                                                                                         </li>
                                                                                     </ul>
@@ -482,7 +487,7 @@ const Header = (props) => {
                                                                                 </li>
                                                                                 <li>
                                                                                     <Link onClick={ClickHandler} to="/">
-                                                                                        <i className="fab fa-dribbble"></i>
+                                                                                        <i className="fab fa-instagram"></i>
                                                                                     </Link>
                                                                                 </li>
                                                                             </ul>
@@ -519,20 +524,37 @@ const Header = (props) => {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item-has-children">
-                                        <Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link>
-                                        <ul className="submenu">
+                                    <li>
+                                        <Link onClick={ClickHandler} to="/casestudy"><span>Projects</span></Link>
+                                        {/* <ul className="submenu">
                                             <li><Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/casestudy-details/Marketing"><span>Casestudy Details</span></Link></li>
+                                        </ul> */}
+                                    </li>
+                                     <li className="menu-item-has-children">
+                                        <Link onClick={ClickHandler} to="#"><span>Industries</span></Link>
+                                        <ul className="submenu">
+                                            <li><Link onClick={ClickHandler} to="#"><span>Automobiles</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Financual Services</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>FMCG</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>CPG</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Insurance</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Entertainment</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Education</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Retail</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Real Estate</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Travel</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Healthcare</span></Link></li>
+                                            <li><Link onClick={ClickHandler} to="#"><span>Public Sector</span></Link></li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item-has-children">
-                                        <Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link>
+                                    {/* <li className="menu-item-has-children">
+                                        <Link onClick={ClickHandler} to="/blog"><span>Insights</span></Link>
                                         <ul className="submenu">
                                             <li><Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link></li>
                                             <li><Link onClick={ClickHandler} to="/blog-single/AI-in-Neuroimaging-IXICOs-Cloud-Transformation"><span>Blog Details</span></Link></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
                                 </ul>
                             </nav>
@@ -542,18 +564,18 @@ const Header = (props) => {
                                         <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                                         <div className="xb-logo-mobile xb-hide-xl">
                                             <Link onClick={ClickHandler} to="/" rel="home"><img src={logo}
-                                                    alt=""/></Link>
+                                                alt="" /></Link>
                                         </div>
                                         <div className="xb-header-mobile-search xb-hide-xl">
                                             <form role="search" onSubmit={SubmitHandler}>
                                                 <input type="text" placeholder="Search..." name="s"
-                                                    className="search-field"/>
+                                                    className="search-field" />
                                                 <button className="search-submit" type="submit"><i
-                                                        className="far fa-search"></i></button>
+                                                    className="far fa-search"></i></button>
                                             </form>
                                         </div>
                                         <nav className="xb-header-nav">
-                                            <MobileMenu/>
+                                            <MobileMenu />
                                         </nav>
                                     </div>
                                 </div>

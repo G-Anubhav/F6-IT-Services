@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
 import Hero from '../../components/hero/hero';
 import PartnerSection from '../../components/PartnerSection';
-import About from '../../components/about/about';
+// import About from '../../components/about/about';
 import About2 from '../../components/It-Services-Components/about/about';
 import FeaturedSection from '../../components/It-Services-Components/FeatureSection';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
@@ -14,6 +14,7 @@ import FunFactSection from '../../components/It-Services-Components/FunFact/FunF
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import TeamSection from '../../components/TeamSection/TeamSection';
+import IntegrationSection from '../../components/Help-Desk-Components/IntegrationSection/IntegrationSection';
 import OurTeamSection from '../../components/It-Services-Components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import FaqSection from '../../components/FaqSection/FaqSection';
@@ -31,18 +32,19 @@ const HomePage = () => {
                     <Hero />
                     <FeaturedSection />
                     <About2 />
-                    <About />
+                    {/* <About /> */}
                     <ServiceSection />
                     <WorkProcess2 />
                     <FunFactSection />
                     <ProjectSection />
                     <FeaturesSection />
                     <WorkProcess />
-                    <PartnerSection />  
+                    <PartnerSection /> 
+                    <IntegrationSection /> 
                     <IndustrieSection />
-                    <Testimonial />
-                    <TeamSection />
                     <OurTeamSection />
+                    <TeamSection />
+                    <Testimonial />
                     <FaqSection />
                     <CtaSection /> 
                 </main>

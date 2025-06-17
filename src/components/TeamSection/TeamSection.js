@@ -32,7 +32,7 @@ const TeamSection = () => {
 
     return (
 
-        <section className="team pt-140 pb-140">
+        <section className="team pt-10 pb-140">
             <div className="container">
                 <div className="sec-title--two text-center mb-60">
                     <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>

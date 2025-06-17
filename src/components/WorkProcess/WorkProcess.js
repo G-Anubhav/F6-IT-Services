@@ -57,7 +57,7 @@ const WorkProcess = (props) => {
                     <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                         <div>
                             <h2 className="title clr-white wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">Our
-                                SEO workflow</h2>
+                                Digital Workflow</h2>
                         </div>
                     </Fade>
                 </div>

@@ -16,7 +16,7 @@ const TeamSection = () => {
 
     return (
 
-        <section className="team pt-85 pb-80">
+        <section className="team pt-25 pb-80">
             <div className="container">
                 <div className="team-heading text-center pos-rel">
                     <h2 className="title">Our team</h2>

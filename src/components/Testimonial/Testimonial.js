@@ -25,50 +25,50 @@ const testimonial = [
         id: '01',
         tImg: tImg1,
         logo: icon1,
-        Des: "Working with Innomax was fantastic! Their strategies  improved our rankings and increased leads.",
-        Name: 'Christopher Smith',
-        sub: 'Brand Strat at near',
+        Des: "Their PPC team optimized our campaigns so efficiently that our ad spend went down by 35%, while our conversions doubled. They constantly test and refine for better results.",
+        Name: 'Rahul Verma',
+        sub: 'Founder at CityStyle Furniture',
         country: 'Seattle, Ukraine',
     },
     {
         id: '02',
         tImg: tImg2,
         logo: icon2,
-        Des: "Innomax exceeded all our expectations! Their expertise in SEO helped us achieve a remarkable 150%",
-        Name: 'Sarah Davis',
-        sub: 'Branding at spinlet',
+        Des: "Within just 3 months of working with F6, our organic traffic grew by 160%! Their SEO strategies not only boosted our visibility but also brought in highly qualified leads.",
+        Name: 'Ritika Mehta',
+        sub: 'Marketing Head at GreenLeaf Naturals',
     },
     {
         id: '03',
         tImg: tImg3,
         logo: icon3,
-        Des: "Choosing Innomax was a great decision. Their focus on trends helped us rank for competitive keywords, our success!",
-        Name: 'Robert Miller',
-        sub: 'Marketing Dir. at BUSD',
+        Des: "From redesigning our website to building our brand across social media platforms, the team at F6 handled everything seamlessly. We’ve seen a 3x engagement boost and stronger brand loyalty.",
+        Name: 'Nitin Desai',
+        sub: 'Owner at TravelWings Holidays',
     },
     {
         id: '04',
         tImg: tImg4,
         logo: icon4,
-        Des: "Since partnering with Innomax, our website's performance has improved remarkably. Their data-driven approach and top-notch!",
-        Name: 'Jessica Martinez',
-        sub: 'Project Manager at Kuda',
+        Des: "We approached them for AI-based process automation, and they completely transformed how we manage customer support and operations. Tasks that took hours are now completed in minutes.",
+        Name: 'Anjali Kapoor',
+        sub: 'CTO at Zenith Enterprises',
     },
     {
         id: '05',
         tImg: tImg3,
         logo: icon5,
-        Des: "Since partnering with Innomax, our website's performance has improved remarkably. Their data-driven approach and top-notch!",
-        Name: 'Jessica Martinez',
-        sub: 'Project Manager at Kuda',
+        Des: "After launching our ecommerce store with [Your Company Name], our sales increased by 220% in the first quarter. The site is lightning fast, mobile-optimized, and integrated with smart analytics.",
+        Name: 'Mohit Arora',
+        sub: 'Director at Blunite Techwear',
     },
     {
         id: '06',
         tImg: tImg2,
         logo: icon2,
-        Des: "Innomax exceeded all our expectations! Their expertise in SEO helped us achieve a remarkable 150%",
-        Name: 'Sarah Davis',
-        sub: 'Branding at spinlet',
+        Des: "We needed a partner who could handle everything — SEO, ads, content, and web development. F6 delivered beyond expectations. Our brand now ranks on Page 1 for 20+ keywords and our revenue has doubled!",
+        Name: 'Shruti Patel',
+        sub: 'Co-Founder at EarthyEssentials.in',
     },
 ]
 
@@ -88,7 +88,7 @@ const Testimonial = (props) => {
 
     return (
 
-        <section className={`testimonial o-hidden pb-140 ${props.tClass}`}>
+        <section className={`testimonial o-hidden pb-50 ${props.tClass}`}>
             <div className="container">
                 <div className="sa-tes_top pos-rel mb-60">
                     <div className="sec-title--two">

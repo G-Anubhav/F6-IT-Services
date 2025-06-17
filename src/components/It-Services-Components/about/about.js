@@ -19,21 +19,21 @@ const About = () => {
       icon: aIcon1,
       heading: 'About us',
       content:
-        'Innomax IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.',
+        'F6 IT Services empowers businesses with innovative, scalable digital solutions tailored for modern growth. We blend technology, creativity, and strategy to streamline operations, enhance customer experiences, and drive measurable impact across industries.',
     },
     {
       img: about2,
       icon: aIcon2,
       heading: 'Our mission',
       content:
-        'To deliver cutting-edge IT solutions that drive business growth, boost productivity, and ensure long-term helping competitiveness. We are dedicated to scalable, reliable technology and exceptional support.',
+        'To deliver innovative digital solutions that drive business growth, enhance operational efficiency, and ensure long-term competitiveness. We are committed to scalable technology, seamless automation, and exceptional client support.',
     },
     {
       img: about3,
       icon: aIcon3,
       heading: 'Our vision',
       content:
-        'Our Vision is to empower businesses with innovative IT solutions that drive growth, efficiency, and long-term success. We deliver scalable technology to keep you competitive and ready for the future.',
+        'Our vision is to empower businesses through innovative digital solutions that drive growth, streamline operations, and ensure long-term success. We deliver scalable, future-ready technology to keep you competitive in a rapidly evolving digital world.',
     },
   ];
 

@@ -65,7 +65,7 @@ const IndustrieSection = (props) => {
     }
 
     return (
-        <section className="industrie m-lr pt-30 pb-140">
+        <section className="industrie m-lr pt-30 pb-40">
             <div className="industrie-wrap sec-bg pos-rel pt-130 pb-130">
                 <div className="container">
                     <div className="sec-title--two text-center mb-30">

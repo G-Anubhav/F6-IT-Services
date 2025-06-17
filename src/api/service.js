@@ -10,15 +10,15 @@ import sicon2 from '../images/icon/ser-icon02.svg'
 import sicon3 from '../images/icon/ser-icon03.svg'
 import sicon4 from '../images/icon/ser-icon04.svg'
 
-import sdicon1 from '../images/icon/da-fea_icon01.svg'
-import sdicon2 from '../images/icon/da-fea_icon02.svg'
-import sdicon3 from '../images/icon/da-fea_icon03.svg'
-import sdicon4 from '../images/icon/da-fea_icon04.svg'
+// import sdicon1 from '../images/icon/da-fea_icon01.svg'
+// import sdicon2 from '../images/icon/da-fea_icon02.svg'
+// import sdicon3 from '../images/icon/da-fea_icon03.svg'
+// import sdicon4 from '../images/icon/da-fea_icon04.svg'
 
-import simg1 from '../images/service/service-img02.jpg'
-import simg2 from '../images/service/service-img01.jpg'
-import simg3 from '../images/service/service-img03.jpg'
-import simg4 from '../images/service/service-img04.jpg'
+// import simg1 from '../images/service/service-img02.jpg'
+// import simg2 from '../images/service/service-img01.jpg'
+// import simg3 from '../images/service/service-img03.jpg'
+// import simg4 from '../images/service/service-img04.jpg'
 
 
 import scicon1 from '../images/icon/airdrop-white.svg'
@@ -43,17 +43,17 @@ const Services = [
     {
         Id: '1',
         sImg: icon1,
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Marketing Automation',
         slug: 'Niche-research',
         thumb1: 'Strategy',
         thumb2: 'Consultation',
-        description: 'Enhance your online presence and rank higher with precision-optimized strategies that drive organic growth and long-term visibility.',
+        description: 'Streamline your campaigns with smart automation tools that nurture leads and maximize ROI.',
     },
     {
         Id: '2',
         sImg: icon2,
-        title: 'Pay-Per-Click (PPC) Advertising',
-        slug: 'Link-building',
+        title: 'Lead Management System',
+        slug: 'Capture, track, and convert leads with a centralized, efficient lead management process.',
         thumb1: 'Management',
         thumb2: 'Transfer',
         description: 'Maximize ROI with targeted campaigns that convert—built for measurable impact and smart budget utilization.',
@@ -61,109 +61,127 @@ const Services = [
     {
         Id: '3',
         sImg: icon3,
-        title: 'Social Media Marketing (SMM)',
+        title: 'Business Applications',
         slug: 'International-SEO',
         thumb1: 'Landing Page',
         thumb2: 'Plugins',
-        description: 'Build meaningful connections and grow your brand presence across platforms with data-backed, creative strategies.',
+        description: 'Custom web and mobile solutions to support and scale your core business operations.',
     },
     {
         Id: '4',
         sImg: icon4,
-        title: 'Web Development',
+        title: 'Mobile Apps',
         slug: 'Enterprise-SEO',
         thumb1: 'Consultation',
         thumb2: 'solution',
-        description: 'Craft responsive, scalable, and high-performance websites tailored to meet business objectives and user expectations.',
+        description: 'Build high-performance mobile applications for Android and iOS with user-first design.',
     },
     {
         Id: '5',
         sImg: icon5,
-        title: 'Enterprise Automation with AI (Exclusive)',
+        title: 'User/Customer Experience Design',
         slug: 'SEO-audit',
         thumb1: 'Website',
         thumb2: 'Mobile App',
-        description: 'Leverage intelligent automation to streamline operations, boost productivity, and accelerate decision-making at scale.',
+        description: 'Create seamless digital experiences that enhance user satisfaction and brand loyalty.',
     },
     {
         Id: '6',
         sImg: icon6,
-        title: 'Ecommerce',
+        title: 'Business Automations (AI)',
         slug: 'Penalty-recovery',
-        description: 'Deliver seamless shopping experiences with robust, flexible platforms designed for growth, security, and performance.',
+        description: 'Leverage AI to automate repetitive tasks, gain insights, and boost operational efficiency.',
     },
     {
         Id: '7',
-        sImg: simg1,
+        sImg: icon1,
         sIcon: sicon1,
-        title: 'IT management',
+        title: 'Web Development / DevOps',
         slug: 'IT-management',
+        description: 'Scalable, secure, and fast websites powered by modern development and DevOps practices.',
     },
     {
         Id: '8',
-        sImg: simg2,
+        sImg: icon2,
         sIcon: sicon2,
-        title: 'Data tracking & security',
+        title: 'Cloud Communication',
         slug: 'Data-tracking-&-security',
+        description: 'Enable real-time, reliable communication through cloud-based platforms and APIs.',
     },
     {
         Id: '9',
-        sImg: simg3,
+        sImg: icon3,
         sIcon: sicon3,
-        title: 'Custom CRM services',
+        title: 'Performance Marketing',
         slug: 'Custom-CRM-services',
+        description: 'Enable real-time, reliable communication through cloud-based platforms and APIs.',
     },
     {
         Id: '10',
-        sImg: simg4,
+        sImg: icon4,
         sIcon: sicon4,
-        title: 'Website development ',
+        title: 'Impact / Awareness Campaigns',
         slug: 'Website-development ',
+        description: 'Strategically crafted campaigns that build brand awareness and emotional connection.',
     },
     {
         Id: '11',
-        sIcon: sdicon1,
-        title: 'Data source identification',
+        sImg: icon5,
+        title: 'Search Engine Optimization (SEO)',
         slug: 'Data-source',
-        description: 'We identify the new and existing data sources that can help drive your business forward.',
+        description: 'Improve your website’s visibility and ranking on Google with proven SEO techniques.',
     },
     {
         Id: '12',
-        sIcon: sdicon2,
-        title: 'Data ecosystem set up',
+        sImg: icon6,
+        title: 'Social Media Management (SMM)',
         slug: 'Data-ecosystem',
-        description: 'We ingest your data into a data warehouse and set up your analytics to start making sense of it.',
+        description: 'Engage and grow your audience across platforms with consistent and creative content.',
     },
     {
         Id: '13',
-        sIcon: sdicon3,
-        title: 'AI solution Design',
+        sImg: icon1,
+        title: 'Online Reputation Management',
         slug: 'AI-solution',
-        description: 'We design AI solutions that use your newly found insights to identify new opportunities for improvement.',
+        description: 'Monitor, manage, and improve your brands online presence and customer sentiment.',
     },
     {
         Id: '14',
-        sIcon: sdicon4,
-        title: 'Business-wide adoption',
+        sImg: icon2,
+        title: 'Creative Innovations',
         slug: 'Business-wide',
         description: 'We support you in helping your business understand, embrace, and adopt the change.',
     },
     {
         Id: '15',
+        sImg: icon3,
+        title: 'Branded Content',
+        slug: 'Business-wide',
+        description: 'Craft compelling content that communicates your brand’s story and values effectively.',
+    },
+    {
+        Id: '16',
+        sImg: icon4,
+        title: 'Ecommerce Automation',
+        slug: 'Business-wide',
+        description: 'Automate your ecommerce operations from inventory to marketing for higher efficiency and sales.',
+    },
+    {
+        Id: '17',
         sIcon: scicon1,
-        title: 'Secure your network',
+        title: 'Branded Content',
         slug: 'Secure-your-network',
         features: [' Consistently Secure the Enterprise.', 'Apply Al inline to prevent evasive.', 'Simplify network security operations.', ' Adopt Zero Trust across the network.', ' Simplify with AI-Powered SASE.']
     },
     {
-        Id: '16',
+        Id: '18',
         sIcon: scicon2,
-        title: 'Secure your cloud',
+        title: 'Ecommerce Automation',
         slug: 'Secure-your-cloud',
         features: ['End-to-End Cloud Security.', 'Real-Time Threat Detection.', 'Identity & Access Management.', 'Data Encryption & Privacy.', 'Compliance & Governance.']
     },
     {
-        id: '17',
+        id: '19',
         sIcon: scicon3,
         title: 'Transform your SOC',
         slug: 'Transform-your-SOC',
@@ -176,7 +194,7 @@ const Services = [
         ],
     },
     {
-        id: '18',
+        id: '20',
         sIcon: scicon4,
         title: 'Threat Intel & Response',
         slug: 'Threat-Intel-&-Response',
@@ -189,7 +207,7 @@ const Services = [
         ],
     },
     {
-        id: '19',
+        id: '21',
         sIcon: scicon5,
         title: 'Solutions by industry',
         slug: 'Solutions-by-industry',
@@ -203,61 +221,61 @@ const Services = [
     },
 
     {
-        Id: '20',
+        Id: '22',
         sIcon: cdicon1,
         title: 'INFRASTRUCT URE DESIGN',
         slug: 'INFRASTRUCT-URE-DESIGN',
     },
     {
-        Id: '21',
+        Id: '23',
         sIcon: cdicon2,
         title: 'COSTS OPTIMIZATION',
         slug: 'COSTS-OPTIMIZATION',
         bgClass:'cd-dot_bg2',
     },
     {
-        Id: '22',
+        Id: '24',
         sIcon: cdicon3,
         title: 'INFRASTRUCTURE AS A CODE',
         slug: 'INFRASTRUCTURE-AS-A-CODE',
         bgClass:'cd-dot_bg3',
     },
     {
-        Id: '23',
+        Id: '25',
         sIcon: cdicon4,
         title: 'Continuous Integration',
         slug: 'Continuous-Integration',
         bgClass:'cd-dot_bg4',
     },
     {
-        Id: '24',
+        Id: '26',
         sIcon: cdicon5,
         title: 'Continuous Deployment',
         slug: 'Continuous-Deployment',
     },
     {
-        Id: '25',
+        Id: '27',
         sIcon: cdicon6,
         title: 'Blue Green Deployment',
         slug: 'Blue-Green-Deployment',
         bgClass:'cd-dot_bg2',
     },
     {
-        Id: '26',
+        Id: '28',
         sIcon: '',
         title: 'Data Consistency',
         slug: 'Data-Consistency',
         bgClass:'cd-dot_bg3'
     },
     {
-        Id: '27',
+        Id: '29',
         sIcon: cdicon7,
         title: 'Data Integrity',
         slug: 'Data-Integrity',
         bgClass:'cd-dot_bg4'
     },
     {
-        Id: '28',
+        Id: '30',
         sIcon: cdicon8,
         title: 'Redundancy',
         slug: 'Redundancy',

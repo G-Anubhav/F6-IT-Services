@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import sIcon1 from '../../../images/icon/int-icon.svg'
-import sIcon2 from '../../../images/icon/arrow-black.png'
+import sIcon2 from '../../../images/icon/arrow-white.svg'
 import Icon1 from '../../../images/icon/int-icon01.png'
 import Icon2 from '../../../images/icon/int-icon02.png'
 import Icon3 from '../../../images/icon/int-icon03.png'
@@ -135,7 +135,7 @@ const IntegrationSection = (props) => {
                                     <h2 className="title">Popular apps integrate with us</h2>
                                 </div>
                                 <div className="xb-btn mt-40">
-                                    <Link onClick={ClickHandler} to="/pricing" className="thm-btn thm-btn--three thm-btn--black">Start your free trial
+                                    <Link onClick={ClickHandler} to="/pricing" className="thm-btn thm-btn--three thm-btn--black">Start Your Journey
                                         <span>
                                             <img className="img--one" src={sIcon2} alt="" />
                                             <img className="img--two" src={sIcon2} alt="" />
