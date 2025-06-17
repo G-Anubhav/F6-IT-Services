@@ -6,7 +6,7 @@ import PartnerSection from '../../components/PartnerSection';
 import About2 from '../../components/It-Services-Components/about/about';
 import FeaturedSection from '../../components/It-Services-Components/FeatureSection';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
-import ProjectSection from '../../components/ProjectSection/ProjectSection';
+// import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import WorkProcess from '../../components/WorkProcess/WorkProcess';
 import WorkProcess2 from '../../components/It-Services-Components/WorkProcess/WorkProcess';
 import IndustrieSection from '../../components/IndustrieSection/IndustrieSection';
@@ -36,7 +36,7 @@ const HomePage = () => {
                     <ServiceSection />
                     <WorkProcess2 />
                     <FunFactSection />
-                    <ProjectSection />
+                    {/* <ProjectSection /> */}
                     <FeaturesSection />
                     <WorkProcess />
                     <PartnerSection /> 
