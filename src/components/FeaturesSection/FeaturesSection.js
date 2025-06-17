@@ -16,7 +16,7 @@ const FeaturesSection = (props) => {
                             <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                                 <div>
                                     <div className="sub-title wow fadeInDown" data-wow-duration="600ms"><img
-                                        src={star} alt="" />Why we’re dirrerent</div>
+                                        src={star} alt="" />Why we’re different</div>
                                 </div>
                             </Fade>
                             <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
@@ -31,49 +31,49 @@ const FeaturesSection = (props) => {
                                 <tr>
                                     <th>Features</th>
                                     <th><img src={logo} alt="" /></th>
-                                    <th>Other SEO agencies</th>
+                                    <th>Other Companies</th>
                                 </tr>
                             </thead>
                             <tbody className="table-body">
                                 <tr>
-                                    <td>Take on projects only if confident in delivery.</td>
+                                    <td>Strategic Focus on Measurable Business Outcomes</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={error} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Tailor-made, revenue-boosting strategy.</td>
+                                    <td>Tailor-Made, Revenue-Boosting & Growth Strategy</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={error} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>100% focus on your project.</td>
+                                    <td>Client-Centric Approach With Dedicated Execution</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={error} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Transparent about meeting goals and deadlines.</td>
+                                    <td>Transparent Processes, Predictable Delivery Timelines</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={check} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Cares about long-term SEO success.</td>
+                                    <td>Seamless Collaboration Across Teams and Functions</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={error} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Knows that ROI is the most important metric.</td>
+                                    <td>ROI-Driven, Not Just Data-Driven Work</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={error} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Feels like an extension of your marketing team.</td>
+                                    <td>Enterprise-Grade Technology With Agile Flexibility</td>
                                     <td><img src={check} alt="" /></td>
                                     <td><img src={check} alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td>Crafts a results-driven strategy.</td>
+                                    <td>Tech-Driven, People-Powered Digital Transformation</td>
                                     <td><img src={check} alt="" /></td>
-                                    <td><img src={check} alt="" /></td>
+                                    <td><img src={error} alt="" /></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -36,7 +36,7 @@ const ServiceSection = (props) => {
                             <div className="xb-btn mt-50">
                                 <Fade direction='up' triggerOnce={'false'} duration={1600} delay={9}>
                                     <div>
-                                        <Link onClick={ClickHandler} to="/service" className="thm-btn thm-btn--aso thm-btn--aso_yellow">View more services</Link>
+                                        <Link onClick={ClickHandler} to="/service" className="thm-btn thm-btn--aso">View more services</Link>
                                     </div>
                                 </Fade>
                             </div>
