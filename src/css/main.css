@@ -5209,6 +5209,15 @@ body[data-aos-easing=ease] [data-aos] {
   }
 }
 
+.description .rightArrow{
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.iconbox_block_2:hover .description .rightArrow {
+  transform: rotate(-45deg);
+}
+
 .mega_menu_wrapper .iconbox_block_2:hover {
   background-color: #E8EFFF;
 }
@@ -18938,6 +18947,9 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 767px) {
   .thm-btn {
     font-size: 16px;
+  }
+  .thm-hero-btn{
+    margin-bottom: 12px;
   }
 }
 

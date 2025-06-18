@@ -57,7 +57,7 @@ const Header = (props) => {
 
         <div id="xb-header-area" className="header-area header-style-two header-transparent">
             <div className="header-top">
-                <span>Get 15% off on all annual plans until September 30! Join Texpo as we transform SEO 🚀</span>
+                <span>Get 15% off on all annual plans until June 30! Join F6 as we transform digital solutions 🚀</span>
                 <span><Link onClick={ClickHandler} to="/">Learn more</Link><i className="far fa-angle-right"></i></span>
                 <div className="header-shape">
                     <div className="shape shape--one"><img src={icon1} alt="" /></div>
@@ -414,7 +414,7 @@ const Header = (props) => {
                                                                                                 <small
                                                                                                     className="iconbox_title">All Services</small>
                                                                                             </span>
-                                                                                            <span className="description mb-0">View Our All Services</span>
+                                                                                            <span className="description mb-0">View Our All Services <span className='rightArrow'>➜</span></span>
                                                                                         </Link>
                                                                                     </div>
                                                                                 </div>

@@ -73,7 +73,7 @@ const Hero = () => {
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
                                     <div>
                                         <div className="xb-btn wow mt-60 fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                                            <Link to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--white_icon">
+                                            <Link to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--white_icon thm-hero-btn">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Get Started Now</span></div>
                                                 <div className="xb-item--holder">
                                                     <span className="xb-item--text">Get Started Now</span>
@@ -81,7 +81,7 @@ const Hero = () => {
                                                     <span className="xb-item--text">Get Started Now</span>
                                                 </div>
                                             </Link>
-                                            <Link to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--white_icon">
+                                            <Link to="/service" className="thm-btn thm-btn--fill_icon thm-btn--white_icon">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">View Services</span></div>
                                                 <div className="xb-item--holder">
                                                     <span className="xb-item--text">View Services</span>

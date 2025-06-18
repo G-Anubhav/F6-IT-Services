@@ -19,7 +19,7 @@ const About = () => {
       icon: aIcon1,
       heading: 'About us',
       content:
-        'F6 IT Services empowers businesses with innovative, scalable digital solutions tailored for modern growth. We blend technology, creativity, and strategy to streamline operations, enhance customer experiences, and drive measurable impact across industries.',
+        'F6 IT Services empowers businesses with innovative, scalable digital solutions tailored for modern growth. We blend technology, creativity, & strategy to streamline operations, enhance customer experiences, drive measurable impact across industries.',
     },
     {
       img: about2,
@@ -33,7 +33,7 @@ const About = () => {
       icon: aIcon3,
       heading: 'Our vision',
       content:
-        'Our vision is to empower businesses through innovative digital solutions that drive growth, streamline operations, and ensure long-term success. We deliver scalable, future-ready technology to keep you competitive in a rapidly evolving digital world.',
+        'Our vision is to empower businesses through innovative digital solutions, growth driven, streamline operations, & ensure long-term success. We deliver scalable, future-ready technology to keep you competitive in a rapidly evolving digital world.',
     },
   ];
 
