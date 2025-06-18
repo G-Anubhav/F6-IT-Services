@@ -45,7 +45,7 @@ const Footer = (props) => {
                             </div>
                             <div className="xb-item--holder">
                                 <p className="xb-item--content">Our Office</p>
-                                <h4 className="xb-item--title">SCO-88, 2nd Floor, <br /> Sector 12A, Gurugram, Haryana</h4>
+                                <h4 className="xb-item--title">SCO-88, 2nd Floor, <br /> Sector 12A, Gurugram, <br /> Haryana 122001</h4>
                             </div>
                         </div>
                     </div>
