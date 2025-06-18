@@ -18,7 +18,7 @@ const WhyChoose = (props) => {
                         <div className="col-lg-4 col-md-6 mt-30">
                             <div className="ap-fea-item pos-rel">
                                 <div className="xb-item--img"><img src={sIcon2} alt=""/></div>
-                                <h3 className="xb-item--content">We don’t make empty promises</h3>
+                                <h3 className="xb-item--content">We don’t make empty promises.</h3>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-30">
@@ -30,7 +30,7 @@ const WhyChoose = (props) => {
                         <div className="col-lg-4 col-md-6 mt-30">
                             <div className="ap-fea-item pos-rel">
                                 <div className="xb-item--img"><img src={sIcon4} alt=""/></div>
-                                <h3 className="xb-item--content">We created our own SEO tools to fill in the gaps</h3>
+                                <h3 className="xb-item--content">We developed custom Digital tools to fill gaps.</h3>
                             </div>
                         </div>
                     </div>

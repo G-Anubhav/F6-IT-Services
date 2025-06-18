@@ -6,7 +6,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import Bg from '../../images/bg/page_bg01.jpg'
 import CtaSection from '../../components/CtaSection/CtaSection';
-import icon from '../../images/icon/music-icon.svg'
+import icon from '../../images/icon/call-calling.svg'
 import bImg1 from '../../images/contact/cont_img01.png'
 import bImg2 from '../../images/shape/brd_shape.png'
 

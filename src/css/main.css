@@ -13933,6 +13933,10 @@ body[data-aos-easing=ease] [data-aos] {
   margin-left: 20px;
 }
 
+.input-field span.required-label{
+  color: #ff0000;
+}
+
 .contact-form .input-field {
   margin-bottom: 30px;
 }
@@ -14241,7 +14245,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .cs-contact-form .contact-form .errorMessage{
-  margin-top: -10px;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 
@@ -14253,6 +14257,11 @@ body[data-aos-easing=ease] [data-aos] {
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: -0.01em;
+}
+
+.select__menu {
+  z-index: 9999 !important;
+  position: absolute !important;
 }
 
 .cs-contact-form .input-field .input-box {

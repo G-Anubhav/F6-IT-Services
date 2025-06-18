@@ -63,7 +63,7 @@ const ServiceSection = () => {
             ref={serviceListRef}
             onMouseLeave={handleMouseLeave}
           >
-            {Services.slice(6, 10).map((service, srv) => (
+            {Services.slice(5, 9).map((service, srv) => (
               <div
                 onClick={() => handleClick(srv)}
                 onMouseEnter={() => handleMouseEnter(srv)}

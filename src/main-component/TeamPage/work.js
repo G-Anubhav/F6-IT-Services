@@ -13,39 +13,39 @@ import iIcon2 from '../../images/icon/sms-white-icon01.svg'
 const workItems = [
     {
         id: 1,
-        icon: icon1,
-        title: 'Endless career growth',
-        content: 'We provide lots of career growth opportunities to our employees, which is reflected both financially and reputably.',
+        icon: icon2,
+        title: 'Confident in What We Deliver',
+        content: 'We take on projects only when we’re fully confident in delivering measurable results — no false promises.',
     },
     {
         id: 2,
-        icon: icon2,
-        title: 'Mentorship & learning',
-        content: 'We support peer assistance and offer mentorship programs like IT Talks and in-house courses for different roles.',
+        icon: icon3,
+        title: '100% Project Focus at Every Stage',
+        content: 'We prioritize your project with dedicated attention — from kickoff to completion and beyond.',
     },
     {
         id: 3,
-        icon: icon3,
-        title: 'Cozy & fun offices',
-        content: 'Our four R&D offices offer a gym, yoga mats, snacks, foosball, a VR set, and more for a comfortable workspace.',
+        icon: icon1,
+        title: 'Transparent, Goal-Oriented Approach',
+        content: 'We believe in clarity — clear milestones, timely updates, and full accountability on every deliverable.',
     },
     {
         id: 4,
         icon: icon4,
-        title: 'Competitive salary',
-        content: 'Our projects belong to a wide variety of industries, which will make your professional background more diverse.',
+        title: 'Strategic Solutions Designed for Returns',
+        content: 'Every solution is custom-built to align with your business goals, ensuring maximum return on investment.',
     },
     {
         id: 5,
         icon: icon5,
-        title: 'Career change option',
-        content: 'No need to job hunt to learn new tech or switch roles—we’ll support your transition within innomax.',
+        title: 'Long-Term Success Over Quick Wins',
+        content: 'We focus on sustainable growth — not shortcuts — to ensure your business keeps thriving post-launch.',
     },
     {
         id: 6,
         icon: icon6,
-        title: 'Friendly atmosphere',
-        content: 'We value people as innomax greatest asset and ensure hierarchy never works against our employees.',
+        title: 'Feels Like an Extension of Your Team',
+        content: 'We collaborate closely, working with you (not just for you) to deliver solutions that truly fit your culture.',
     },
 ];
 
@@ -63,7 +63,7 @@ const WorkSection = (props) => {
                         <img src={iIcon} alt="" />
                         Why work with us
                     </div>
-                    <h2 className="title">Why people work with us</h2>
+                    <h2 className="title">Why Choose F6 IT Services</h2>
                 </div>
                 <div className="tp-work-wrapp">
                     <div className="row mt-none-30">
